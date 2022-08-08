@@ -1,0 +1,59 @@
+@media (min-width: 1024px) {
+  .header__nav{
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+
+  .nav__logo-img {
+    height: 66px;
+  }
+
+  .header__nav-search {
+    width: 300px;
+  }
+
+  .login__contact-box {
+      width: 40%;
+  }
+
+  .login__contact-btn {
+    width: 40%;
+  }
+
+  .header__nav-search{
+    display: flex;
+  }
+
+  .nav__btn-icon {
+    width: 50px;
+}
+
+  .header__nav-searchMovil{
+    display: none;
+  }
+
+  .login__contact-fondo{
+    margin-top: 0;
+  }
+
+  /*Sección cel Footer*/
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer__info{
+    flex-grow: 1;
+  }
+
+  .footer__contact{
+    flex-grow: 2;
+  }
+
+  .footer__logo-img {
+    height: 300px;
+    width: 300px;
+  }
+}

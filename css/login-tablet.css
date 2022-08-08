@@ -1,0 +1,107 @@
+@media (min-width: 768px) {
+  /*Sección de la Cabecera*/
+  .header__nav{
+    justify-content: space-around;
+    margin-bottom: 0;
+  }
+  .header__nav-search{
+    width: 270px;
+  }
+
+  .header__nav-search{
+    display: flex;
+  }
+
+  .header__nav-searchMovil{
+    display: none;
+  }
+
+  .nav__search-box::placeholder{
+    color: var(--color-placeholder);
+  }
+
+  .header__nav-logoMovil{
+    display: none;
+  }
+
+  .header__nav-logo{
+    display: flex;
+  }
+
+  .nav__logo-img{
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .login__contact-fondo{
+    margin-top: 0;
+  }
+
+  /*Sección del Footer*/
+  .footer{
+    display: flex;
+    padding: 60px 15px;
+  }
+  
+
+  .footer__info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .footer__logo-img {
+    height: 200px;
+  }
+
+  .footer__menu-enlaces {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  .footer__contact-title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+  .footer__contac-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__contact-box, .login__contact-box{
+    width: 80%;
+  }
+
+  .login__contact-fondo{
+    background-color: var(--fondo-login);
+    padding: 60px 15px;
+  }
+
+  .login__contac-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__contact--mensaje{
+    height: 150px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

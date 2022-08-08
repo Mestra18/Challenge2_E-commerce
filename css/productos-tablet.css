@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  .nav__logo-img{
+    height: 70px;
+  }
+  
+  .header__nav-search{
+    width: 260px;
+  }
+
+  .all__products{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

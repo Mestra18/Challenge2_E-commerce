@@ -1,0 +1,40 @@
+.input__message-error{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header__nav{
+    margin-bottom: 0;
+  }
+
+  .login__contact-fondo{
+    margin-top: 0;
+  }
+
+  .header__nav-search{
+    display: flex;
+  }
+
+  .header__nav-searchMovil{
+    display: none;
+  }
+
+  .login__contac-form{
+    display: block;
+  }
+
+  .input__container{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1024px){
+  .header__nav{
+      justify-content: space-around;
+  }
+
+  .nav__btn-icon {
+    width: 50px;
+  }
+}

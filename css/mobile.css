@@ -1,0 +1,358 @@
+:root{
+  --font: 'Raleway', sans-serif;
+  --first-color: #2A7AE4;
+  --fondo-blanco: #FFF;
+  --fondo-search: #F5F5F5;
+  --fondo-productos: #ccc;
+  --color-titulos: #464646;
+  --fondo-footer: #EAF2FD;
+  --color-placeholder: #A2A2A2;
+  --black-alpha-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.header__nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: bisque;
+  margin-bottom: 15px;
+}
+
+.header__nav-logo{
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo-text{
+  width: 50px;
+}
+
+.nav__logo-vector{
+  height: 15px;
+}
+
+.nav__btn-login, .nav__btn-register, .hero__boton{
+  padding: 10px 40px;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid var(--first-color);
+  color: var(--first-color);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.header__nav-search{
+  display: none;
+  align-items: center;
+  width: 150px;
+  padding: 6px;
+  border-radius: 8px;
+  background-color: var(--fondo-search);
+}
+
+.header__nav-searchMovil{
+  display: flex;
+  width: 250px;
+  margin: 0 auto;
+  padding: 6px;
+  border-radius: 8px;
+  background-color: var(--fondo-search);
+}
+
+.nav__search-box{
+  width: 100%;
+  margin-right: 5px;
+  border: none;
+  background-color: var(--fondo-search);
+  outline: none;
+}
+
+.nav__search-box::placeholder{
+  color: var(--color-placeholder);
+}
+
+.nav__search-enlace{
+  width: 20px;
+  height: 20px;
+}
+
+.nav__search-logo{
+  width: 14px;
+  margin: 3px;
+}
+
+.header__nav-logo, .header__nav-btn{
+  display: none;
+}
+
+.nav__logo-img{
+  height: 30px;
+}
+
+.nav__btn-icon{
+  width: 40px;
+}
+
+.nav__btn-registro a:nth-child(1){
+  margin-right: 15px;
+}
+
+.nav__btn-registro{
+  display: flex;
+  align-items: center;
+}
+
+/*Sección Hero Image*/
+.hero{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.hero__img{
+  width: 100%;
+  position: relative;
+}
+
+.hero__text{
+  position: absolute;
+  width: 85%;
+  top: 180px;
+  padding: 10px;
+  background-color: rgba(36, 7, 0, 0.4);
+  color: var(--fondo-blanco);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hero__text-title{
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22.83px;
+  letter-spacing: .5px;
+}
+
+.hero__text-description{
+  font-weight: 600;
+  font-size: 14px;
+  margin: 4px 0;
+  letter-spacing: .8px;
+}
+
+.hero__boton--modificado, .footer__contact-btn, .all__products-btn{
+  padding: 15px 20px;
+  background-color: var(--first-color);
+  color: var(--fondo-blanco);
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+.hero__boton--modificado:hover, .footer__contact-btn:hover{
+  color: var(--first-color);
+  background-color: var(--fondo-blanco);
+}
+
+/*Seccion de Galería*/
+.galery{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.galery__product-box:nth-last-child(-n+2){
+  display: none;
+}
+
+.galery__text{
+  display: flex;
+  align-items: center;
+}
+
+.galery__tite, .all__products-tite{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: var(--color-titulos);
+}
+
+.galery__description{
+  margin-right: 4px;
+  color: var(--first-color);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.galery__arrow{
+  width: 7px;
+  filter: invert(39%) sepia(47%) saturate(4910%) hue-rotate(202deg) brightness(97%) contrast(83%);
+}
+
+.galery__product, .products__galery{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+}
+
+.galery__product-box, .products__galery-box{
+  width: 160px;
+  height: 276px;
+  background-color: var(--fondo-productos);
+  margin-bottom: 15px;
+  box-shadow: 4px 5px 10px -3px var(--black-alpha-color);
+}
+
+.galery__product-img, .products__galery-img{
+  width: 100%;
+  height: 180px;
+}
+
+.galery__product-text, .products__galery-text{
+  display: flex;
+  flex-direction: column;
+  padding: 8px
+}
+
+.galery__text-title, .products__galery-title{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  color: var(--color-titulos);
+}
+
+.galery__text-price, .products__galery-price, .products__galery-ref{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--color-titulos);
+  margin: 8px 0;
+}
+
+.galery__text-enlace{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--first-color);
+  text-align: center;
+  border: 1px solid var(--first-color);
+  padding: 4px 0;
+  transition: .5s ease;
+}
+
+/*Sección del Footer*/
+.footer{
+  padding: 30px 15px;
+  background-color: var(--fondo-footer);
+}
+
+.footer__logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer__logo-img{
+  height: 150px;
+}
+
+.footer__logo-vector{
+  height: 20px;
+}
+
+.footer__menu{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__menu-enlaces{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  color: var(--color-titulos);
+  margin-bottom: 16px;
+}
+
+.footer__contac-form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.footer__contact-title{
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 19px;
+  text-align: center;
+  color: var(--color-titulos);
+  margin-bottom: 15px;
+}
+
+.footer__contact-box{
+  height: 50px;
+  background-color: var(--fondo-blanco);
+  margin-bottom: 10px;
+  border-radius: 6px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--first-color);
+}
+
+.footer__contact-box::placeholder, .login__contact-box::placeholder, .footer__contact--mensaje::placeholder{
+  color: var(--color-placeholder);
+  font-size: 1rem;
+}
+
+.footer__contact--mensaje{
+  height: 150px;
+}
+
+.footer__btn{
+  display: flex;
+  justify-content: center;
+}
+
+/*Sección del Rodapie*/
+.rodapie{
+  padding: 20px 15px;
+}
+
+.rodapie__text{
+  font-weight: 600;
+  font-size: 1.15rem;
+  line-height: 19px;
+  text-align: center;
+  color: var(--color-titulos);
+}
+
+.rodapie__autor{
+  color: var(--first-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

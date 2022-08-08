@@ -1,0 +1,22 @@
+.header__nav-search {
+  display: flex;
+}
+
+/*Sección de Productos*/
+.all__products{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all__products-btn{
+  margin: 15px 0;
+}
+
+.products__galery{
+  justify-content: space-evenly;
+}
+
+.products__galery-ref{
+  margin: 0;
+}

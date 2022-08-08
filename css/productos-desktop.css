@@ -1,0 +1,9 @@
+@media (min-width: 1024px) {
+  .products__galery{
+    padding: 10px 100px;
+  }
+
+  .products__galery-box {
+    width: 168px;
+  }
+}

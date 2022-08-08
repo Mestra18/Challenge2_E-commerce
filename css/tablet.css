@@ -1,0 +1,132 @@
+@media (min-width: 768px) {
+  .nav__logo-text{
+    width: 170px;
+  }
+
+  .header__nav-logo{
+    display: flex;
+  }
+
+  .header__nav-logoMovil{
+    display: none;
+  }
+
+  .nav__logo-img{
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .header__nav-search{
+    display: flex;
+    width: 210px;
+    padding: 8px;
+  }
+
+  .nav__search-box::placeholder{
+    font-size: 16px;
+  }
+
+  .nav__search-logo{
+    width: 16px;
+  }
+
+  .header__nav-searchMovil{
+    display: none;
+  }
+
+  .header__nav-btn{
+    display: none;
+  }
+  
+  .nav__btn-login, .nav__btn-register, .hero__boton {
+    font-size: 16px;
+    transition: .5s ease;
+    padding: 10px 50px;
+  }
+
+  .nav__btn-login{
+    margin-right: 15px;
+  }
+
+  .nav__btn-register{
+    color: var(--fondo-blanco);
+    background-color: var(--first-color);
+  }
+
+  .nav__btn-registro a:nth-child(1) {
+    margin-right: 20px;
+  }
+
+  .nav__btn:hover{
+    color: var(--fondo-blanco);
+    background-color: var(--first-color);
+  }
+
+  .hero__text{
+    top: 310px;
+  }
+
+  .hero__text-title, .galery__tite, .footer__contact-title{
+    font-size: 2rem;
+  }
+
+  .hero__text-description{
+    font-size: 1.2rem;
+  }
+
+  .hero__boton--modificado, .footer__contact-btn{
+    padding: 16px 45px;
+    font-size: 1rem;
+  }
+
+  .galery{
+    padding: 0 34px;
+  }
+
+  .galery__description{
+    font-size: 1.1rem;
+  }
+
+  .galery__arrow{
+    width: 9px;
+  }
+
+  .galery__product{
+    justify-content: space-evenly;
+  }
+
+  /*Sección del Footer*/
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer__info{
+    flex-grow: 1;
+  }
+
+  .footer__contact{
+    flex-grow: 2;
+  }
+
+  .footer__logo-img{
+    height: 200px;
+    width: 200px;
+  }
+
+  .footer__menu-enlaces {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  .footer__contact-box::placeholder{
+    font-size: 1.2rem;
+  }
+
+  /*Sección del Rodapie*/
+  .rodapie__text{
+    font-size: 1.3rem;
+    line-height: 1.2;
+  }
+}

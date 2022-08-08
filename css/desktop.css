@@ -1,0 +1,91 @@
+@media (min-width: 1024px) {
+  .header__nav{
+    padding: 10px 70px;
+  }
+
+  .header__nav-search{
+    width: 350px;
+  }
+
+  .nav__btn-registro {
+    display: none;
+  }
+
+  .header__nav-btn {
+    display: flex;
+  }
+
+  /*Sección del Hero*/
+  .hero__img{
+    height: 580px;
+  }
+  
+  .hero__text{
+    top: 380px;
+    padding: 36px 0;
+    width: 60%;
+  }
+
+  .hero__text-title{
+    font-size: 3rem;
+  }
+
+  .hero__text-description{
+    font-size: 1.4rem;
+    line-height: 2;
+  }
+
+  /*Sección de Galería*/
+  .galery{
+    padding: 0 100px;
+  }
+
+  .galery__product{
+    padding: 10px 100px;
+  }
+
+  .galery__product-box:nth-last-child(-n+2){
+    display: block;
+  }
+
+  .galery__text-enlace:hover{
+    color: var(--fondo-blanco);
+    background-color: var(--first-color);
+    border: 1px solid var(--fondo-blanco);
+    letter-spacing: .5px;
+  }
+
+
+  /*Sección del Footer*/
+  .footer__info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+  }
+
+  .footer__logo-img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .footer__contact{
+    flex-grow: 1;
+  }
+
+  .footer__contact-title{
+    margin-bottom: 20px;
+  }
+
+  .footer__menu-enlaces{
+    transition: .5s ease;
+  }
+
+  .footer__menu-enlaces:hover{
+    color: var(--first-color);
+  }
+
+  /*Sección del Rodapie*/
+  .rodapie__text {
+    font-size: 1.1rem;
+  }
+}
